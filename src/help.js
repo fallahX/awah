@@ -1,34 +1,21 @@
 const help = (prefix) => {
-	return `> *Sticker Commands* <
-command : *${prefix}sticker* or *${prefix}stiker*
+	return `// *Sticker Commands* //
+command : // *${prefix}sticker* or *${prefix}stiker* //
 desc : convert image/gif/video to sticker
 usage : reply image/gif/video, or send image/gif/video with caption\n
-command : *${prefix}sticker nobg* or *${prefix}stiker nobg*
+command : // *${prefix}sticker nobg* or *${prefix}stiker nobg* //
 desc : convert image to sticker while removing the background
 usage : reply image, or send image with caption\n
-command : *${prefix}toimg*
+command : //${prefix}toimg//
 desc : convert sticker to image
 usage : reply sticker\n
-command : *${prefix}tsticker* or *${prefix}tstiker*
+command : // *${prefix}tsticker* or *${prefix}tstiker* //
 desc : convert text to sticker
 usage : *${prefix}tsticker text in here*\n
-> *Meme Commands* <
-command : *${prefix}meme*
-desc : random meme images [english]
-usage : just send the command\n
-command : *${prefix}memeindo*
-desc : random meme images [indo]
-usage : just send the command\n
-> *Others Commands* <
+// *Others Commands* //
 command : *${prefix}gtts*
 desc : convert text to speech/audio
 usage : *${prefix}gtts [cc] [text]*\nexample : *${prefix}gtts ja On2-chan*\n
-command : *${prefix}loli*
-desc : random loli images
-usage : just send the command\n
-command : *${prefix}nsfwloli*
-desc : random nsfw loli images
-usage : just send the command\n
 command : *${prefix}url2img*
 desc : take web screenshots
 usage : *${prefix}url2img [tipe] [url]*\n
@@ -45,7 +32,7 @@ command : *${prefix}setprefix*
 desc : replace prefix
 usage : *${prefix}setprefix [text|optional]*\nexample : *${prefix}setprefix ?*
 note : This command can only be used by the bot owner\n
-> *Group Comands* <
+// *Group Comands* //
 command : *${prefix}linkgroup*
 desc : take the group link
 usage : just send the command\
